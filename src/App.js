@@ -4,10 +4,10 @@ function App() {
   return (
     <div className="container min-h-screen max-w-full bg-darkblue flex justify-center items-center">
       <div className='h-fit w-64 bg-blueblur p-4 rounded-2xl shadow-2xl'>
-        <div>
-          <img className='relative w-64 rounded-xl mb-4 hover:bg-cyan-400 hover:cursor-pointer hover:opacity-0' src='./img/image-equilibrium.jpg' alt='' />
-          <div className='absolute top-28 rounded-xl mt-2 bg-cyan-500 w-56 h-56 z-50 opacity-0 hover:cursor-pointer hover:opacity-80 transition-opacity flex justify-center items-center' >
-            <img className='w-8' src='./img/icon-view.svg' alt='' />
+        <div className='relative w-64 rounded-xl mb-4'>
+          <img className='relative w-56 h-56 hover:bg-cyan-400 hover:cursor-pointer hover:opacity-0' src='./img/image-equilibrium.jpg' alt='' />
+          <div className='absolute top-0 rounded-xl bg-cyan-500 w-56 h-56 z-50 opacity-0 hover:cursor-pointer hover:opacity-80 transition-opacity flex justify-center items-center' >
+            <img className='' src='./img/icon-view.svg' alt='' />
           </div>
         </div>
         <h1 className='text-white text-lg font-sans font-semibold mb-4 hover:text-cyan-400 hover:cursor-pointer'>Equilibrium #3429</h1>
