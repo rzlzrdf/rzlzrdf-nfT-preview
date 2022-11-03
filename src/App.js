@@ -3,10 +3,10 @@ import './App.css';
 function App() {
   return (
     <div className="container min-h-screen max-w-full bg-darkblue flex justify-center items-center">
-      <div className='h-fit w-64 bg-blueblur p-4 rounded-2xl shadow-2xl'>
-        <div className='relative w-64 rounded-xl mb-4'>
-          <img className='relative w-56 h-56 hover:bg-cyan-400 hover:cursor-pointer hover:opacity-0' src='./img/image-equilibrium.jpg' alt='' />
-          <div className='absolute top-0 rounded-xl bg-cyan-500 w-56 h-56 z-50 opacity-0 hover:cursor-pointer hover:opacity-80 transition-opacity flex justify-center items-center' >
+      <div className='h-fit w-72 bg-blueblur p-4 rounded-2xl shadow-2xl'>
+        <div className='relative w-72 rounded-xl mb-4'>
+          <img className='relative w-64 rounded-xl hover:bg-cyan-400 hover:cursor-pointer hover:opacity-0' src='./img/image-equilibrium.jpg' alt='' />
+          <div className='absolute top-0 rounded-xl bg-cyan-500 w-64 h-64 z-50 opacity-0 hover:cursor-pointer hover:opacity-80 transition-opacity flex justify-center items-center' >
             <img className='' src='./img/icon-view.svg' alt='' />
           </div>
         </div>
